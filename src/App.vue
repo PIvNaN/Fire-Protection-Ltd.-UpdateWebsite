@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
+  <div class="app">
     <Home/>
   </div>
 </template>
 
 <script>
-import Home from './components/Home'
+import Home from './pages/Home'
 
 export default {
   name: 'App',
@@ -17,4 +17,8 @@ export default {
 
 <style lang="stylus">
   @import './styles/global/reset'
+</style>
+
+<style lang="stylus" scoped>
+
 </style>
