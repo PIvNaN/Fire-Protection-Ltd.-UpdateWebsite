@@ -1,26 +1,19 @@
 <template>
   <div class="about-us-container">
-    <Menu/>
-    <h1>{{ msg }}</h1>
+      <p>ABOUT US</p>
+
   </div>
 </template>
 
 <script>
-import Menu from '../components/Menu'
+import { QMenu } from 'quasar'
+import { QSeparator } from 'quasar'
 
 export default {
-  name: 'AboutUs',
-  components : {
-    Menu
-  },
-  data () {
-    return {
-      msg: 'About us'
-    }
+  name: 'Home',
+  components: {
+    QMenu,
+    QSeparator
   }
 }
 </script>
-
-<style scoped lang="stylus">
-
-</style>

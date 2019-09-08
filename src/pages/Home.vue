@@ -1,26 +1,19 @@
 <template>
-  <div class="hello">
-    <Menu/>
-    <h1>{{ msg }}</h1>
+  <div class="home-container">
+      <p>Home page</p>
+
   </div>
 </template>
 
 <script>
-import Menu from '../components/Menu'
+import { QMenu } from 'quasar'
+import { QSeparator } from 'quasar'
 
 export default {
   name: 'Home',
-  components : {
-    Menu
-  },
-  data () {
-    return {
-      msg: 'Home page'
-    }
+  components: {
+    QMenu,
+    QSeparator
   }
 }
 </script>
-
-<style scoped lang="stylus">
-
-</style>
