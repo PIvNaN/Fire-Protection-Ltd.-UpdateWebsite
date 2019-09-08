@@ -10,7 +10,7 @@ import { QMenu } from 'quasar'
 import { QSeparator } from 'quasar'
 
 export default {
-  name: 'Home',
+  name: 'AboutUs',
   components: {
     QMenu,
     QSeparator

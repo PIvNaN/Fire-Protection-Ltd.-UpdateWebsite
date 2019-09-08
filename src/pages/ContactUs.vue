@@ -1,12 +1,12 @@
 <template>
-  <div class="servise-container">
+  <div class="contact-us-container">
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Projects',
+  name: 'ContactUs',
   components : {
   },
   data () {

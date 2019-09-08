@@ -2,7 +2,7 @@ import AppLayout from './../layouts/AppLayout'
 import Home from './../pages/Home'
 import AboutUs from './../pages/AboutUs'
 import Projects from './../pages/Projects'
-import Servise from './../pages/Servise'
+import Services from './../pages/Services'
 import ContactUs from './../pages/ContactUs'
 
 const routes = [
@@ -23,8 +23,8 @@ const routes = [
         component: Projects
       },
       {
-        path: '/servise',
-        component: Servise
+        path: '/services',
+        component: Services
       },
       {
         path: '/contactus',

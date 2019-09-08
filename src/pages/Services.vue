@@ -1,17 +1,17 @@
 <template>
-  <div class="servise-container">
+  <div class="services-container">
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Projects',
+  name: 'Services',
   components : {
   },
   data () {
     return {
-      msg: 'Servise page'
+      msg: 'Services page'
     }
   }
 }
