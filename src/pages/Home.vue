@@ -2,7 +2,7 @@
   <div class="home-container">
     <q-img src="./../statics/img/fire-protection-professionals-banner-image.jpg">
       <div class="absolute-full text-subtitle2 flex flex-center">
-        <h1>Fire Protection ltd.</h1>
+        <h1 class="text-accent">Fire Protection ltd.</h1>
       </div>
     </q-img>
   </div>
