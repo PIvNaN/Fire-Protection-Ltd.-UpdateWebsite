@@ -1,6 +1,9 @@
 import AppLayout from './../layouts/AppLayout'
 import Home from './../pages/Home'
 import AboutUs from './../pages/AboutUs'
+import Projects from './../pages/Projects'
+import Servise from './../pages/Servise'
+import ContactUs from './../pages/ContactUs'
 
 const routes = [
   {
@@ -14,6 +17,18 @@ const routes = [
       {
         path: '/aboutus',
         component: AboutUs
+      },
+      {
+        path: '/projects',
+        component: Projects
+      },
+      {
+        path: '/servise',
+        component: Servise
+      },
+      {
+        path: '/contactus',
+        component: ContactUs
       }
     ]
   }
