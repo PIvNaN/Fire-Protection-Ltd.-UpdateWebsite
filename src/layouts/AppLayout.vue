@@ -15,19 +15,19 @@
             <div class="col"></div>
             <div class="col">
               <q-icon name="phone"/>
-              <b>+359/654 321</b>
+              <b>0897/543311</b>
             </div>
             <div class="col">
               <q-icon name="mail" />
-              <b>fire-protect@gmail.com</b>
+              <b>fireprotection@abv.bg</b>
             </div>
           </div>
           <q-tabs class="text-accent">
-            <q-route-tab to="/home" label="Home" />
-            <q-route-tab to="/aboutus" label="About us" />
-            <q-route-tab to="/projects" label="Projects" />
-            <q-route-tab to="/services" label="Services" />
-            <q-btn to="/contactus" icon="phone" label="Contact us" stack glossy color="accent" />
+            <q-route-tab to="/home" label="Начало" />
+            <q-route-tab to="/aboutus" label="За нас" />
+            <q-route-tab to="/projects" label="Проекти" />
+            <q-route-tab to="/services" label="Услуги" />
+            <q-btn to="/contactus" icon="phone" label="Контакти" stack glossy color="accent" />
           </q-tabs>
         </div>
       </q-toolbar>
@@ -45,8 +45,7 @@
 </template>
 
 <script>
-import { openURL } from 'quasar'
-import { QAvatar, QTabs, QRouteTab, QFooter, QPageSticky, QPageScroller } from 'quasar'
+import { openURL, QAvatar, QTabs, QRouteTab, QFooter, QPageSticky, QPageScroller } from 'quasar'
 
 export default {
   name: 'AppLayout',
@@ -74,7 +73,7 @@ export default {
     box-shadow: 0px 1px 8px rgba(0,0,0,0.14)
   .q-header,
   .q-page-sticky
-    background: rgba(255,255,255, 0.8)
+    background: rgba(255,255,255, 0.75)
   .helper-text
     margin: 11px 0
     .col
