@@ -1,16 +1,17 @@
 <template>
-  <div class="hello">
+  <div class="services-container">
     <h1>{{ msg }}</h1>
-
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Services',
+  components : {
+  },
   data () {
     return {
-      msg: 'Welcome to Home page'
+      msg: 'Services page'
     }
   }
 }

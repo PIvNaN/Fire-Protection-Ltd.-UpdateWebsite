@@ -1,20 +1,16 @@
 <template>
-  <div id="app">
-    <Home/>
+  <div id="q-app">
+    <AppLayout/>
   </div>
 </template>
 
 <script>
-import Home from './components/Home'
+import AppLayout from './layouts/AppLayout'
 
 export default {
   name: 'App',
   components: {
-    Home
+    AppLayout
   }
 }
 </script>
-
-<style lang="stylus">
-  @import './styles/global/reset'
-</style>
