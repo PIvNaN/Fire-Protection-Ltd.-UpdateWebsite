@@ -1,19 +1,24 @@
 <template>
   <div class="about-us-container">
-      <p>ABOUT US</p>
+    <q-img
+      src="./../statics/img/about_us_top_image.png"
+     />
+    <p class="q-pa-xl text-body1">Файер Протекшън е фирма, създадена през 2008 година в гр. Стара Загора.
+Вече 10 години се изграждаме и доказваме в областта на комплексното пожарообезопасяване на сгради и обекти, противопожарно обследване, пожарна безопасност, проектиране и поддръжка на пожарогасителни системи.
+Предлагаме противопожарна техника и инсталации в гр. Стара Загора и страната.</p>
 
   </div>
 </template>
 
 <script>
-import { QMenu } from 'quasar'
-import { QSeparator } from 'quasar'
+import { QMenu, QSeparator, QImg } from 'quasar'
 
 export default {
   name: 'AboutUs',
   components: {
     QMenu,
-    QSeparator
+    QSeparator,
+    QImg
   }
 }
 </script>
