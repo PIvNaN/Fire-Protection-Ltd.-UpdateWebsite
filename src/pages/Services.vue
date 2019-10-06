@@ -1,7 +1,7 @@
 <template>
 <div class="service-page">
   <div class="section q-pa-xl">
-    <h5 class="text-accent">Комплексно пожарообезопасяване</h5>
+    <h5 class="text-accent fadeInDown animated">Комплексно пожарообезопасяване</h5>
     <div class="text-body2">
       <p>Файер Протекшън предлага комплексна противопожарна защита на обекти за територията на цялата страна, включваща:</p>
       <ul>
@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="section dark q-pa-xl">
-    <h6 class="text-accent">ПОЖАРНО ОБЕЗОПАСЯВАНЕ НА СГРАДИ И ОБЕКТИ - СТАРА ЗАГОРА</h6>
+    <h6 class="text-accent fadeInDown animated">ПОЖАРНО ОБЕЗОПАСЯВАНЕ НА СГРАДИ И ОБЕКТИ - СТАРА ЗАГОРА</h6>
     <div class="text-body2">
       <p>В пожарообезопасяването влизат услуги по:</p>
       <ul>
@@ -35,7 +35,7 @@
     </div>
   </div>
   <div class="section q-pa-xl">
-    <h6 class="text-accent">ПОЖАРНА БЕЗОПАСНОСТ В СТАРА ЗАГОРА</h6>
+    <h6 class="text-accent fadeInDown animated">ПОЖАРНА БЕЗОПАСНОСТ В СТАРА ЗАГОРА</h6>
     <div class="text-body2">
       <p>Фирма Файер Протекшън ЕООД осигурява противопожарна защита за различни обекти, изготвя проекти по пожарна безопасност, аварийни планове за предотвратяване на пожари и аварии, както и планове за управление на строителни отпадъци.</p>
     </div>
