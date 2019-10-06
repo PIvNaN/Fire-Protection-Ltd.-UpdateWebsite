@@ -1,7 +1,11 @@
 <template>
 <div class="service-page">
   <div class="section q-pa-xl">
-    <h5 class="text-accent" data-aos="fade-up" data-aos-delay="1000">Комплексно пожарообезопасяване</h5>
+    <h5 class="text-accent" 
+      data-aos="fade-up"
+      data-aos-delay="500"
+      data-aos-duration="500"
+    >Комплексно пожарообезопасяване</h5>
     <div class="text-body2 fadeInUp animated">
       <p>Файер Протекшън предлага комплексна противопожарна защита на обекти за територията на цялата страна, включваща:</p>
       <ul>
@@ -19,7 +23,11 @@
     </div>
   </div>
   <div class="section dark q-pa-xl">
-    <h6 class="text-accent" data-aos="fade-up" data-aos-delay="1000">ПОЖАРНО ОБЕЗОПАСЯВАНЕ НА СГРАДИ И ОБЕКТИ - СТАРА ЗАГОРА</h6>
+    <h5 class="text-accent" 
+      data-aos="fade-up" 
+      data-aos-delay="500" 
+      data-aos-duration="500"
+    >ПОЖАРНО ОБЕЗОПАСЯВАНЕ НА СГРАДИ И ОБЕКТИ - СТАРА ЗАГОРА</h5>
     <div class="text-body2 fadeInUp animated">
       <p>В пожарообезопасяването влизат услуги по:</p>
       <ul>
@@ -35,7 +43,11 @@
     </div>
   </div>
   <div class="section q-pa-xl">
-    <h6 class="text-accent" data-aos="fade-up" data-aos-delay="1000">ПОЖАРНА БЕЗОПАСНОСТ В СТАРА ЗАГОРА</h6>
+    <h5 class="text-accent"
+      data-aos="fade-up" 
+      data-aos-delay="500" 
+      data-aos-duration="500"
+    >ПОЖАРНА БЕЗОПАСНОСТ В СТАРА ЗАГОРА</h5>
     <div class="text-body2 fadeInUp animated">
       <p>Фирма Файер Протекшън ЕООД осигурява противопожарна защита за различни обекти, изготвя проекти по пожарна безопасност, аварийни планове за предотвратяване на пожари и аварии, както и планове за управление на строителни отпадъци.</p>
     </div>
