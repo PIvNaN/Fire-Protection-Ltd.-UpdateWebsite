@@ -7,7 +7,7 @@
             <q-avatar>
               <img src="./../statics/img/fire-logo.jpg">
             </q-avatar>
-            Fire Protection ltd.
+            <b class="q-ml-sm">Файер Протекшън ЕООД</b>
           </q-toolbar-title>
         </div>
         <div class="col">
@@ -32,6 +32,7 @@
         </div>
       </q-toolbar>
     </q-header>
+    
     <q-page-container>
       <router-view />
       <q-page>
@@ -69,6 +70,8 @@ export default {
 </script>
 
 <style lang="stylus">
+  .q-page-container
+    padding-top: 50px !important
   .q-header
     box-shadow: 0px 1px 8px rgba(0,0,0,0.14)
   .q-header,

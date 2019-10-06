@@ -47,8 +47,6 @@ export default {
 </script>
 
 <style lang="stylus">
-  .q-page-container
-    margin-top: -99px
   .carousel
     height: 100vh
   .q-gutter-xl > .q-img
