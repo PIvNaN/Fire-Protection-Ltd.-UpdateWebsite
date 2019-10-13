@@ -6,7 +6,11 @@
       data-aos-delay="500"
       data-aos-duration="500"
     >Комплексно пожарообезопасяване</h5>
-    <div class="text-body2 fadeInUp animated">
+    <div class="text-body2"
+      data-aos="fade-up"
+      data-aos-delay="800"
+      data-aos-duration="800"
+    >
       <p>Файер Протекшън предлага комплексна противопожарна защита на обекти за територията на цялата страна, включваща:</p>
       <ul>
         <li>Противопожарно обследване на обекти</li>
@@ -28,7 +32,11 @@
       data-aos-delay="500" 
       data-aos-duration="500"
     >ПОЖАРНО ОБЕЗОПАСЯВАНЕ НА СГРАДИ И ОБЕКТИ - СТАРА ЗАГОРА</h5>
-    <div class="text-body2 fadeInUp animated">
+    <div class="text-body2"
+      data-aos="fade-up"
+      data-aos-delay="800"
+      data-aos-duration="800"
+    >
       <p>В пожарообезопасяването влизат услуги по:</p>
       <ul>
         <li>Противопожарно обследване на обекти</li>
@@ -48,7 +56,11 @@
       data-aos-delay="500" 
       data-aos-duration="500"
     >ПОЖАРНА БЕЗОПАСНОСТ В СТАРА ЗАГОРА</h5>
-    <div class="text-body2 fadeInUp animated">
+    <div class="text-body2"
+      data-aos="fade-up"
+      data-aos-delay="800"
+      data-aos-duration="800"
+    >
       <p>Фирма Файер Протекшън ЕООД осигурява противопожарна защита за различни обекти, изготвя проекти по пожарна безопасност, аварийни планове за предотвратяване на пожари и аварии, както и планове за управление на строителни отпадъци.</p>
     </div>
   </div>
@@ -58,7 +70,7 @@
 <script>
 export default {
   name: 'Services',
-  components : {
+  components: {
   },
   data () {
     return {
